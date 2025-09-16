@@ -12,7 +12,10 @@ initial_arm_length * (phi**i)
 """
 
 ### YOUR CODE STARTS HERE
-
+turtle.speed(500)
+for i in range(5):
+    turtle.forward(10*phi**i)
+    turtle.right(90)
 
 ### YOUR CODE ENDS HERE
 
