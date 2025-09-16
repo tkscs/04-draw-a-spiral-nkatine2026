@@ -20,8 +20,27 @@ The turtle starts at position(0, 0) with heading 0 degrees.
 """
 
 ### YOUR CODE STARTS HERE
-
-
+turtle.speed(1000)
+ial=0.1
+for i in range(500):
+    turtle.forward(ial*(phi**(i/90)))
+    turtle.right(1)
+turtle.setposition(0,100)
+for i in range(500):
+    turtle.forward(ial*(phi**(i/90)))
+    turtle.right(1)
+turtle.setposition(0,-100)
+for i in range(500):
+    turtle.forward(ial*(phi**(i/90)))
+    turtle.right(1)
+turtle.setposition(100,0)
+for i in range(500):
+    turtle.forward(ial*(phi**(i/90)))
+    turtle.right(1)
+turtle.setposition(-100,0)
+for i in range(500):
+    turtle.forward(ial*(phi**(i/90)))
+    turtle.right(1)
 ### YOUR CODE ENDS HERE
 
 turtle.exitonclick()

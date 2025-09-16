@@ -25,8 +25,10 @@ The turtle starts at position(0, 0) with heading 0 degrees.
 """
 
 ### YOUR CODE STARTS HERE
-
-
+ial=0.1
+for i in range(900):
+    turtle.forward(ial*(phi**(i/90)))
+    turtle.right(1)
 ### YOUR CODE ENDS HERE
 
 turtle.exitonclick()
